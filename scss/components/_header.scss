@@ -1,0 +1,64 @@
+.header {
+  width: 100%;
+  height: 40rem;
+  background-color: #C12128;
+  padding: 1.5rem 0;
+  &__container {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (min-width: 768px) {
+      padding-right: 0;
+    }
+  }
+  &__logo {
+    img {
+      width: 8rem;
+    }
+  }
+  &__icon {
+    width: 2.5rem;
+    justify-self: end;
+    tr {
+      a {
+        background-color: red;
+        border-radius: 50%;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+  &__hero {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &::after {
+      content: 'Classic Pizza';
+      width: 100%;
+      height: auto;
+      color: #ffffff;
+      position: absolute;
+      left: 50%;
+      top: 30%;
+      font-family: 'Pizzaria', serif;
+      font-size: 3rem;
+      font-weight: normal;
+      text-align: center;
+      transform: rotate(-6deg) translateX(-51%) translateY(-60%);
+      @media (min-width: 768px) {
+        font-size: 5rem;
+      }
+      @media (min-width: 1200px) {
+        font-size: 8rem;
+      }
+    }
+    img {
+      width: 80%;
+    }
+  }
+}

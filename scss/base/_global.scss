@@ -1,0 +1,32 @@
+@use '../utilities/variables' as var;
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var.$primary-font;
+}
+
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

@@ -1,0 +1,27 @@
+.cart {
+  display: none;
+}
+
+.header {
+  &__icon {
+    li {
+      position: relative;
+      .cart {
+        display: none;
+      }
+      &:hover {
+        .cart {
+          min-width: 375px;
+          min-height: 400px;
+          display: block;
+          padding: 25px;
+          background-color: white;
+          position: absolute;
+          top:100%;
+          right:0;
+          z-index: 1;
+        }
+      }
+    }
+  }
+}

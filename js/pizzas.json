@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "name": "Pizza con Pepperoni",
+    "price": 15,
+    "picture": "img/pizza-1.webp"
+  },
+  {
+    "id": 1,
+    "name": "Pizza con Pepperoni",
+    "price": 18,
+    "picture": "img/pizza-2.webp"
+  },
+  {
+    "id": 2,
+    "name": "Pizza con Jamón",
+    "price": 23,
+    "picture": "img/pizza-3.webp"
+  },
+  {
+    "id": 3,
+    "name": "Pizza con Queso",
+    "price": 17,
+    "picture": "img/pizza-4.webp"
+  },
+  {
+    "id": 4,
+    "name": "Pizza Familiar con Queso",
+    "price": 20,
+    "picture": "img/pizza-5.webp"
+  },
+  {
+    "id": 5,
+    "name": "Pizza Americana",
+    "price": 23,
+    "picture": "img/pizza-6.webp"
+  },
+  {
+    "id": 6,
+    "name": "Pizza con Sushi y Tomate",
+    "price": 21,
+    "picture": "img/pizza-7.webp"
+  },
+  {
+    "id": 7,
+    "name": "Pizza Americana con Tomate",
+    "price": 22,
+    "picture": "img/pizza-8.webp"
+  },
+  {
+    "id": 8,
+    "name": "Pizza Personal con Sushi",
+    "price": 17,
+    "picture": "img/pizza-9.webp"
+  },
+  {
+    "id": 9,
+    "name": "Pizza Familiar con Pepperoni",
+    "price": 23,
+    "picture": "img/pizza-10.webp"
+  },
+  {
+    "id": 10,
+    "name": "Pizza con Sushi y Espárragos",
+    "price": 15,
+    "picture": "img/pizza-11.webp"
+  },
+  {
+    "id": 11,
+    "name": "Pizza Personal Clásica",
+    "price": 20,
+    "picture": "img/pizza-12.webp"
+  }
+]

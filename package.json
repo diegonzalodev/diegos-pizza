@@ -1,0 +1,19 @@
+{
+  "name": "javascript-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass scss/app.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sass": "^1.55.0"
+  }
+}
